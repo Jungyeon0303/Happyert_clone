@@ -1,0 +1,127 @@
+/* fixed_icons 시작 */
+.fixed_icons {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+}
+
+.fixed_icons > a {
+    display: block;
+    margin: 8px;
+}
+/* fixed_icons 끝 */
+
+
+
+
+
+/* shake_type_container 시작 */
+.shake_type_container {
+    margin-top: 100px;
+}
+
+.shake_plan {
+    display: flex;
+    justify-content: center;
+}
+
+.shake > a > img {
+    width: 550px;
+    margin: 0 24px;
+}
+
+.shake_texts {
+    margin: 16px 24px;
+    color: red;
+}
+
+.shake_name {
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.shake_discount {
+    margin: 8px 0 16px 0;
+    font-size: 20px;
+}
+
+.shake_price {
+    color: #e0a8a8;
+    text-decoration: line-through;
+}
+
+.discount_rate {
+    border: 1px solid #be201f;
+    padding: 16px;
+    border-radius: 25px;
+    display: inline-block;
+}
+/* shake_type_container 끝 */
+
+
+/* animation_text_container 시작 */
+.animation_text_container {
+    margin: 100px 0;
+}
+
+.animation_text {
+    color: #be201f;
+    font-size: 150px;
+    width: max-content;
+    animation: text_translate_ani 100s infinite linear;
+}
+
+/* .animation_text:hover {
+    animation: text_translate_ani 100s infinite linear;
+} */
+
+@keyframes text_rotate_ani {
+    0% {
+        transform : translateX(0%)
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* animation_text_container 끝 */
+
+
+
+/* diet_technique_container 시작 */
+.diet_technique_container > ul {
+    display: flex;
+    justify-content: center;
+}
+
+.diet_technique_container > ul > li > img {
+    width: 550px;
+    margin: 0 25px;
+}
+
+.diet_technique_text {
+    color: #be201f;
+    margin: 0 25px;
+    padding: 60px 40px;
+    width: 550px;
+    box-sizing: border-box;
+}
+
+.diet_technique_text > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.diet_technique_text > div > p {
+    font-size: 20px;
+}
+
+.button {
+    background: none;
+    border: 1px solid #be201f;
+    padding: 14px 0;
+}
+
+/* diet_technique_container 끝 */
